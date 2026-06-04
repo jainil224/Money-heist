@@ -71,7 +71,6 @@ ho-main/
 
 - **Node.js** v18 or higher
 - **npm** v9 or higher
-- A **Gemini API Key** from [Google AI Studio](https://aistudio.google.com/)
 
 ### Installation
 
@@ -83,12 +82,7 @@ cd Money-heist
 # 2. Install dependencies
 npm install
 
-# 3. Set up environment variables
-cp .env.example .env.local
-# Add your Gemini API key to .env.local:
-# GEMINI_API_KEY=your_api_key_here
-
-# 4. Start the development server
+# 3. Start the development server
 npm run dev
 ```
 
@@ -133,16 +127,6 @@ To use it:
 **Fallback:** The project gracefully falls back to **Barlow Condensed 900** (loaded from Google Fonts) if the font files are not present.
 
 ---
-
-## 🌐 Environment Variables
-
-Create a `.env.local` file in the project root:
-
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-> `.env.local` is gitignored — never commit your actual API key.
 
 ---
 
